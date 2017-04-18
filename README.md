@@ -1,6 +1,6 @@
 # KV
 
-**TODO: Add description**
+A key-value store app in Elixir implemented as a learning exercise.
 
 ## Installation
 
