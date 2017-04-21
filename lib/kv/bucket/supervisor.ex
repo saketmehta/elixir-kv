@@ -14,7 +14,7 @@ defmodule KV.Bucket.Supervisor do
 
     def init(:ok) do
         children = [
-        worker(KV.Bucket, [], restart: :temporary)
+            worker(KV.Bucket, [], restart: :temporary)
         ]
 
         supervise(children, strategy: :simple_one_for_one)
